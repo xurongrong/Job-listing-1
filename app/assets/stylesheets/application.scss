@@ -37,7 +37,7 @@
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: #FF6F00;
-    background-color: transparent;
+    // background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -47,7 +47,7 @@
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #FF6F00;
-    background-color: transparent;
+
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -66,39 +66,34 @@
 
 //---------Box---------
 
-.box {
-    background-image: url("header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
-
-    .box-inner {
-        background-color: rgba(250, 250, 250, 0.69);
-        padding-bottom: 5px;
-        margin-top: 150px;
-        margin-bottom: 150px;
-    }
+.jumbotron {
+  background-image:url('http://www.allfashionnews.net/wp-content/uploads/2015/07/Fashionable-high-heels-for-you.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 500px;
+}
 
     .title {
-        text-align: center;
-        margin-bottom: 80px;
-    }
+       color: orangered;
+       text-align: center;
+       margin-top: 100px;
+       margin-bottom: 100px;
+   }
 
     .slogan {
-        color: #222;
-        margin-top: 10px;
-        margin-bottom: 50px;
+        color: orangered;
+    
         text-align: center;
-        font-size: 25px;
-        top: 12px;
+        font-size: 500px;
+        text-align: center;
     }
 
-    .lead {
+     .lead {
         margin-bottom: 60px;
         text-align: center;
         color: white;
     }
-}
+
 
 //---------Content---------
 
